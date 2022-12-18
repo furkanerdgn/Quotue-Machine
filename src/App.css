@@ -1,0 +1,65 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: #fff;
+}
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  transition: background-color 0.2s ease-in;
+}
+.huge {
+  font-size: 2rem;
+}
+#quote-box {
+  background-color: #fff;
+  border-radius: 0.25rem;
+  padding: 2rem;
+  margin: 2rem auto;
+  width: 600px;
+}
+#text {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+#tweet-quote {
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem;
+  transition: background-color 0.2s ease-in;
+}
+#author {
+  font-size: 0.9rem;
+  text-align: right;
+}
+.logo {
+  width: 25px;
+  height: 20px;
+  margin-top: 0.3rem;
+  vertical-align: auto;
+}
+#new-quote {
+  border-radius: 0.25rem;
+  float: right;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem;
+  align-items: stretch;
+  transition: background-color 0.2s ease-in;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.2rem;
+  align-items: center;
+}
+#huge {
+  font-size: 3rem;
+}   
